@@ -19,6 +19,40 @@ Ce contexte expérimental permet d’analyser les mécanismes de décision à l�
 
 ---
 
+## Sommaire 
+- [Analyse Speed Dating](#analyse-speed-dating)
+    - [Projet Data Analysis – Analyse Exploratoire (EDA)](#projet-data-analysis--analyse-exploratoire-eda)
+  - [Contexte](#contexte)
+  - [Problématique](#problématique)
+  - [Sommaire](#sommaire)
+  - [Objectifs du projet](#objectifs-du-projet)
+  - [Source des données](#source-des-données)
+  - [Technologies utilisées](#technologies-utilisées)
+    - [Langage](#langage)
+    - [Librairies](#librairies)
+    - [Environnement](#environnement)
+  - [Architecture du projet](#architecture-du-projet)
+  - [Description du notebook](#description-du-notebook)
+    - [cleaning\_\&\_EDA\_tinder.ipynb](#cleaning__eda_tinderipynb)
+      - [Nettoyage du jeu de données](#nettoyage-du-jeu-de-données)
+      - [Analyse exploratoire des données (EDA)](#analyse-exploratoire-des-données-eda)
+      - [Conclusion](#conclusion)
+  - [Visualisations clés de l’analyse](#visualisations-clés-de-lanalyse)
+    - [Profil des participants](#profil-des-participants)
+    - [Priorités déclarées](#priorités-déclarées)
+    - [Le facteur déterminant](#le-facteur-déterminant)
+    - [Conteste externe](#conteste-externe)
+    - [Succès sur le marché](#succès-sur-le-marché)
+    - [Précision et satisfaction](#précision-et-satisfaction)
+  - [Résultats clés](#résultats-clés)
+  - [Limites et perspectives](#limites-et-perspectives)
+    - [Limites](#limites)
+    - [Perspectives](#perspectives)
+  - [Licence](#licence)
+
+
+---
+
 ## Objectifs du projet
 
 Réaliser une analyse exploratoire afin de mieux comprendre les mécanismes de sélection menant à un match, structurée autour de cinq axes principaux :
